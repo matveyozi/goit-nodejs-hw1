@@ -8,4 +8,4 @@ Add contact
 https://ibb.co/d7nx9v2
 
 Remove contact 
-https://ibb.co/MR2m4sy
+https://ibb.co/bNCpYDK

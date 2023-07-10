@@ -54,7 +54,10 @@ async function removeContact(contactId) {
 	try {
 		const db = await listContacts();
 		const removedContact = db.find(item => item.id === contactId);
-		if (!removedContact) return null;
+		if (!removedContact) {
+			console.log(null);
+			return null;
+		};
 
 		const updateContactList = db.filter(item => item.id !== contactId);
 		await fs.writeFile(contactsPath, JSON.stringify(updateContactList));
